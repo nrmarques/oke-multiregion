@@ -1,7 +1,7 @@
 resource "oci_core_vcn" "VCN" {
   cidr_block     = var.VCN-CIDR
   compartment_id = var.compartment_ocid
-  display_name   = "OKE-ORM-VCN-Telenor"
+  display_name   = "OKE-ORM-VCN"
   default_security_list_id = null
 }
 
